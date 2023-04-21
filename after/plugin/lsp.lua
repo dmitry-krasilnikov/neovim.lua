@@ -5,7 +5,12 @@ lsp.preset("recommended")
 lsp.ensure_installed({
   'rust_analyzer',
   'lua_ls',
+  'pylsp',
 })
+
+-- Use following command MANUALLY to install/update pylsp plugins
+-- It is NOT managed by Mason unfortunatelly
+-- :PylspInstall pylsp-rope python-lsp-black pyls-flake8 pylsp-mypy pyls-isort
 
 -- Fix Undefined global 'vim'
 lsp.configure('lua-language-server', {
