@@ -1,3 +1,6 @@
+### This repo is deprecated
+Everything has been moved to https://github.com/dmitry-krasilnikov/dotfiles
+
 ### ThePrimeagen's init.lua
 Prerequisite: install [ripgrep](https://github.com/BurntSushi/ripgrep).
 
